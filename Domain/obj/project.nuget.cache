@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "O+EqGtjmevuArf8inRCpKTWR2KRQSVNE9SFPh4SDu1zTG2ZwFegCMARAGaOeAmKroCCIen42MBapZE8+zAxFJA==",
+  "dgSpecHash": "di8uESQDGdYcSRzoR03ru6wykRBkQe3Lhx/9xroKu1rd+DrQXeb/lxAUY8iIGp7yuYHwb+CWP4HOs5DA45ASjg==",
   "success": true,
   "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -32,7 +31,7 @@ namespace API
            {
                
                var logger =services.GetRequiredService<ILogger<Program>>();
-               logger.LogError(ex, "Bir Hata nedeni ile database migration yapılamadı.");
+               logger.LogError(ex, "Bir Hata nedeni ile database migration yapılamadı."+ex.ToString());
            }
            await host.RunAsync();
         }
