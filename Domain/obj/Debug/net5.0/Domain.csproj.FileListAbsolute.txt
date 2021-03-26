@@ -10,3 +10,15 @@ E:\YAZILIM\Udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileI
 E:\YAZILIM\Udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.dll
 E:\YAZILIM\Udemy\Reactivities\Domain\obj\Debug\net5.0\ref\Domain.dll
 E:\YAZILIM\Udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.pdb
+D:\Udemy\ReActivities\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\Udemy\ReActivities\Domain\bin\Debug\net5.0\Domain.dll
+D:\Udemy\ReActivities\Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\Udemy\ReActivities\Domain\bin\Debug\net5.0\Domain.pdb
+D:\Udemy\ReActivities\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+D:\Udemy\ReActivities\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy\ReActivities\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\Udemy\ReActivities\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\Udemy\ReActivities\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\Udemy\ReActivities\Domain\obj\Debug\net5.0\Domain.dll
+D:\Udemy\ReActivities\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\Udemy\ReActivities\Domain\obj\Debug\net5.0\Domain.pdb
