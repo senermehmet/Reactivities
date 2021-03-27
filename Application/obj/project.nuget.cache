@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "D/WqJgo6tWn4Y2KLP71aBQPhShElyRepyFTOgjJlO9S/T+2X/++9lhmxX6lpisAIqfu1RmOQOyFk4I88PTdTkg==",
+  "dgSpecHash": "3pBed6Ns97O6AeYGTG8d3CmPcf4GZdAvtm1Z/vhFt2sE6JX+qSt+7Pv+ZcMFS1GLUepPJYzjwsvhb1P+/+oE9A==",
   "success": true,
-  "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\Application\\Application.csproj",
+  "projectFilePath": "E:\\YAZILIM\\Udemy\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
