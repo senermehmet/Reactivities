@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Udemy\\ReActivities\\api\\API.csproj": {}
+    "D:\\Udemy\\ReActivities\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Udemy\\ReActivities\\api\\API.csproj": {
+    "D:\\Udemy\\ReActivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udemy\\ReActivities\\api\\API.csproj",
+        "projectUniqueName": "D:\\Udemy\\ReActivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Udemy\\ReActivities\\api\\API.csproj",
+        "projectPath": "D:\\Udemy\\ReActivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Mehmet Sener\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy\\ReActivities\\api\\obj\\",
+        "outputPath": "D:\\Udemy\\ReActivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmet Sener\\AppData\\Roaming\\NuGet\\NuGet.Config"

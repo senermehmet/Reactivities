@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mz6uBLVQu4GVDeUXQjv4V5wCkjrel3uZ7Vnzod4xktgkbl11CPKqMPUtmZJ683Dda2rV7gWIMeHAvg0XtIWZkw==",
+  "dgSpecHash": "i8XbxCLh4YemvtbHwhdWiKQlhUTwCgVPw1NMkj0Yl2vycmWclvG3N6BWli5cmrcOGaBQpXPFtwwX1F1caVkguw==",
   "success": true,
-  "projectFilePath": "D:\\Udemy\\ReActivities\\api\\API.csproj",
+  "projectFilePath": "D:\\Udemy\\ReActivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmet Sener\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mehmet Sener\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
