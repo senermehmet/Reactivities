@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Mehmet Sener\\.nuget\\packages\\",
         "outputPath": "D:\\Udemy\\ReActivities\\Domain\\obj\\",
+=======
+    "E:\\YAZILIM\\Udemy\\Reactivities\\Domain\\Domain.csproj": {}
+  },
+  "projects": {
+    "E:\\YAZILIM\\Udemy\\Reactivities\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\YAZILIM\\Udemy\\Reactivities\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "E:\\YAZILIM\\Udemy\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\",
+        "outputPath": "E:\\YAZILIM\\Udemy\\Reactivities\\Domain\\obj\\",
+>>>>>>> 3b2f0448d181cab85261ed26dface6c7dee0f367
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmet Sener\\AppData\\Roaming\\NuGet\\NuGet.Config"
