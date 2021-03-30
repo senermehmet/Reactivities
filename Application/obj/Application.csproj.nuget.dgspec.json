@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Udemy\\ReActivities\\Application\\Application.csproj": {}
+    "D:\\Udemy\\ReActivities\\Application\\Application.csproj": {}
   },
   "projects": {
-    "d:\\Udemy\\ReActivities\\Application\\Application.csproj": {
+    "D:\\Udemy\\ReActivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Udemy\\ReActivities\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Udemy\\ReActivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "d:\\Udemy\\ReActivities\\Application\\Application.csproj",
+        "projectPath": "D:\\Udemy\\ReActivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Mehmet Sener\\.nuget\\packages\\",
-        "outputPath": "d:\\Udemy\\ReActivities\\Application\\obj\\",
+        "outputPath": "D:\\Udemy\\ReActivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmet Sener\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\Udemy\\ReActivities\\Domain\\Domain.csproj"
+              "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj"
               },
-              "d:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "d:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj"
+              "D:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -69,14 +73,14 @@
         }
       }
     },
-    "d:\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
+    "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Udemy\\ReActivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\Udemy\\ReActivities\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Mehmet Sener\\.nuget\\packages\\",
-        "outputPath": "d:\\Udemy\\ReActivities\\Domain\\obj\\",
+        "outputPath": "D:\\Udemy\\ReActivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmet Sener\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -121,14 +125,14 @@
         }
       }
     },
-    "d:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj": {
+    "D:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "d:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\Udemy\\ReActivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Mehmet Sener\\.nuget\\packages\\",
-        "outputPath": "d:\\Udemy\\ReActivities\\Persistence\\obj\\",
+        "outputPath": "D:\\Udemy\\ReActivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehmet Sener\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -143,8 +147,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\Udemy\\ReActivities\\Domain\\Domain.csproj"
+              "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Udemy\\ReActivities\\Domain\\Domain.csproj"
               }
             }
           }
