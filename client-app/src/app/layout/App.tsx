@@ -6,12 +6,11 @@ import NavBar from './NavBar';
 import ActivityDasboard from '../../features/activities/dashboard/ActivityDashboard';
 
 
-
-
 function App() {
   const [activities, setActivities] = useState<Activity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<Activity | undefined>(undefined);
-  const [editMode, setEditMode] = useState(false)
+  const [editMode, setEditMode] = useState(false);
+
   useEffect(() => {
     axios.get<Activity[]>('http://localhost:5000/api/activities').then(response => {
       setActivities(response.data);
@@ -24,7 +23,7 @@ function App() {
 
   function handleCancelSelectActivity() {
     setSelectedActivity(undefined);
-    setEditMode(true);
+    setEditMode(false);
   }
 
   function handleFormClose() {
@@ -33,6 +32,7 @@ function App() {
 
   function handleFormOpen(id?: string) {
     id ? handleSelectActivity(id) : handleCancelSelectActivity();
+    setEditMode(true);
   }
   return (
     <Fragment>

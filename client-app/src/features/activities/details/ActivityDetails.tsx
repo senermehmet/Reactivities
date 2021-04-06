@@ -5,7 +5,7 @@ import { Activity } from '../../../app/models/activity';
 interface Props {
     activity: Activity
     cancelSelectActivity: () => void;
-    openFrom: (id: string) => void;
+    openFrom: (id : string) => void;
 }
 
 export default function ActivityDetails({ activity, cancelSelectActivity, openFrom }: Props) {
@@ -22,7 +22,7 @@ export default function ActivityDetails({ activity, cancelSelectActivity, openFr
                 </Card.Description>
             </Card.Content>
             <Card.Content extra>
-                <Button.Group winds='2'>
+                <Button.Group widths='2'>
                     <Button onClick={() => openFrom(activity.id)} basic color='blue' content='Edit' />
                     <Button onClick={cancelSelectActivity} basic color='grey' content='Cancel' />
                 </Button.Group>

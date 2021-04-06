@@ -10,7 +10,7 @@ interface Props {
     selectActivity: (id: string) => void;
     cancelSelectActivity: () => void;
     editMode: boolean;
-    openForm: (id: string) => void;
+    openForm: (id : string) => void;
     closeFrom: () => void;
 }
 
