@@ -10,17 +10,22 @@ interface Props {
     selectActivity: (id: string) => void;
     cancelSelectActivity: () => void;
     editMode: boolean;
-    openForm: (id : string) => void;
+    openForm: (id: string) => void;
     closeFrom: () => void;
-    createOrEdit: (activity: Activity) =>void;
+    createOrEdit: (activity: Activity) => void;
+    deleteActivity: (id: string) => void;
 }
 
-export default function ActivityDasboard({ activities, selectedActivity,
-    selectActivity, cancelSelectActivity, openForm, closeFrom, editMode,createOrEdit }: Props) {
+export default function ActivityDasboard({ activities, selectedActivity, selectActivity,
+    cancelSelectActivity, openForm, closeFrom, editMode, createOrEdit, deleteActivity }: Props) {
     return (
         <Grid>
             <Grid.Column width='10'>
-                <ActivityList activities={activities} selectActivity={selectActivity} />
+                <
+                    ActivityList activities={activities}
+                    selectActivity={selectActivity}
+                    deleteActivity={deleteActivity}
+                />
             </Grid.Column>
             <Grid.Column width='6'>
                 {selectedActivity &&
