@@ -8,7 +8,7 @@ interface Props {
     deleteActivity: (id: string) => void;
 }
 
-export default function ActivityList({ activities, selectActivity,  deleteActivity }: Props) {
+export default function ActivityList({ activities, selectActivity, deleteActivity }: Props) {
     return (
         <Segment>
             <ItemGroup divided>
