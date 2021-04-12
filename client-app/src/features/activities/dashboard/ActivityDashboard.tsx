@@ -18,7 +18,7 @@ interface Props {
 }
 
 export default function ActivityDasboard({ activities, selectedActivity, selectActivity,
-    cancelSelectActivity, openForm, closeFrom, editMode, createOrEdit, deleteActivity,submitting  }: Props) {
+    cancelSelectActivity, openForm, closeFrom, editMode, createOrEdit, deleteActivity, submitting }: Props) {
     return (
         <Grid>
             <Grid.Column width='10'>
@@ -26,6 +26,7 @@ export default function ActivityDasboard({ activities, selectedActivity, selectA
                     ActivityList activities={activities}
                     selectActivity={selectActivity}
                     deleteActivity={deleteActivity}
+                    submitting={submitting}
                 />
             </Grid.Column>
             <Grid.Column width='6'>
@@ -36,11 +37,11 @@ export default function ActivityDasboard({ activities, selectedActivity, selectA
                         openFrom={openForm}
                     />}
                 {editMode &&
-                    <ActivitiyForm 
-                    closeForm={closeFrom} 
-                    activity={selectedActivity} 
-                    createOrEdit={createOrEdit} 
-                    submitting={submitting}
+                    <ActivitiyForm
+                        closeForm={closeFrom}
+                        activity={selectedActivity}
+                        createOrEdit={createOrEdit}
+                        submitting={submitting}
                     />}
             </Grid.Column>
         </Grid>
