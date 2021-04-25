@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Container } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import { Activity } from '../models/activity';
 import NavBar from './NavBar';
 import ActivityDasboard from '../../features/activities/dashboard/ActivityDashboard';
@@ -12,44 +12,16 @@ import { observer } from 'mobx-react-lite';
 
 function App() {
 
-  const {activityStore}=useStore();
-
+  const { activityStore } = useStore();
   const [activities, setActivities] = useState<Activity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<Activity | undefined>(undefined);
   const [editMode, setEditMode] = useState(false);
-  const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
 
 
   useEffect(() => {
-    agent.Activities.list().then(response => {
-      let activities: Activity[] = [];
-      response.forEach(activity => {
-        activity.date = activity.date.split('T')[0]; //Dönen string değeri spilit ile tarih kısmını ayırıp tekrar set ettik.
-        activities.push(activity);
-      })
-      setActivities(response);
-      setLoading(false);
-    })
-  }, [])
-
-  function handleSelectActivity(id: string) {
-    setSelectedActivity(activities.find(x => x.id === id))
-  }
-
-  function handleCancelSelectActivity() {
-    setSelectedActivity(undefined);
-    setEditMode(false);
-  }
-
-  function handleFormClose() {
-    setEditMode(false);
-  }
-
-  function handleFormOpen(id?: string) {
-    id ? handleSelectActivity(id) : handleCancelSelectActivity();
-    setEditMode(true);
-  }
+    activityStore.loadActivities();
+  }, [activityStore])
 
   function hendleCreateOrEditActivity(activity: Activity) {
     setSubmitting(true);
@@ -81,22 +53,14 @@ function App() {
 
   }
 
-  if (loading) return <LoadingComponent content='Loading App...' />
+  if (activityStore.loadingInitial) return <LoadingComponent content='Loading App...' />
 
   return (
     <>
-      <NavBar openForm={handleFormOpen} />
+      <NavBar />
       <Container style={{ marginTop: '7em' }}>
-        <h2>{activityStore.title}</h2>
-        <Button content='Add exclamation!' positive onClick={activityStore.setTitle}/>
         <ActivityDasboard
-          activities={activities}
-          selectedActivity={selectedActivity}
-          selectActivity={handleSelectActivity}
-          cancelSelectActivity={handleCancelSelectActivity}
-          editMode={editMode}
-          openForm={handleFormOpen}
-          closeFrom={handleFormClose}
+          activities={activityStore.activities}
           createOrEdit={hendleCreateOrEditActivity}
           deleteActivity={handleDeleteActivity}
           submitting={submitting}

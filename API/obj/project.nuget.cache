@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+RIgL5Ayg8bLrQmaEyKI54ZF0EAGKo7F6GCCkOIJL6p/QAbNP9mGUBDuX+GWDVH7B3aLAdCzfF/ht5bBM7i4yQ==",
+  "dgSpecHash": "FfuE5MP7HYUUwVzlwSe0TH+AoprgZp8ldnGnd9nW1rbt0P+/fiJTrKPuVKMjFMPxTPb+gdQYpnXpNo1vTNXahg==",
   "success": true,
   "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\api\\API.csproj",
   "expectedPackageFiles": [
@@ -109,8 +109,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
