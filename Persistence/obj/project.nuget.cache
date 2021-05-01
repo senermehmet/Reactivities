@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gM/kxMy3Ixd1d4hysnS8kEUW3FJSW+cJ/WDowOjoOnDnXNxtVnvAJ6wRnVqt+LclhCrjHbB2WBN65OdYnMRwIQ==",
+  "dgSpecHash": "Svs6tXLjflcltdyVvAgUYXLs+JMt9IjKUsNoPXSM8l3ZJUW2C/YO63M2+4l3hpmT3LxKWu2mnBh0GQF9bvSe6A==",
   "success": true,
   "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
@@ -97,8 +97,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
