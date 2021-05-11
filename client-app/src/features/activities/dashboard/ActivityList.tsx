@@ -1,6 +1,9 @@
+import { link } from 'fs';
 import { observer } from 'mobx-react-lite';
 import React, { SyntheticEvent, useState } from 'react';
+import { useEffect } from 'react';
 import { Button, Item, ItemGroup, ItemHeader, Label, Segment } from 'semantic-ui-react';
+import LoadingComponent from '../../../app/layout/LoadingComponent';
 import { useStore } from '../../../app/stores/store';
 
 export default observer(function ActivityList() {
@@ -12,6 +15,11 @@ export default observer(function ActivityList() {
         setTarget(e.currentTarget.name);
         deleteActivity(id)
     }
+    useEffect(() => {
+      activityStore.loadActivities();
+    }, [activityStore])
+  
+    if (activityStore.loadingInitial) return <LoadingComponent content='Loading App...' />
 
     return (
         <Segment>
@@ -27,7 +35,7 @@ export default observer(function ActivityList() {
 
                             </Item.Description>
                             <Item.Extra>
-                                <Button onClick={() => activityStore.selectActivity(activity.id)} floated='right' content='View' color='blue' />
+                                <Button as={link} to={`/activities/${activity.id}`} floated='right' content='View' color='blue' />
                                 <Button
                                     name={activity.id}
                                     loading={loading && target === activity.id}
