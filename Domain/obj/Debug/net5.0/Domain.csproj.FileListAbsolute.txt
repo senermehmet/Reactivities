@@ -10,3 +10,15 @@ E:\YAZILIM\Udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileI
 E:\YAZILIM\Udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.dll
 E:\YAZILIM\Udemy\Reactivities\Domain\obj\Debug\net5.0\ref\Domain.dll
 E:\YAZILIM\Udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.pdb
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\bin\Debug\net5.0\Domain.deps.json
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\bin\Debug\net5.0\Domain.dll
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\bin\Debug\net5.0\ref\Domain.dll
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\bin\Debug\net5.0\Domain.pdb
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\obj\Debug\net5.0\Domain.dll
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\obj\Debug\net5.0\ref\Domain.dll
+E:\YAZILIM\Udemy\ReActivities\ReActivities\Domain\obj\Debug\net5.0\Domain.pdb

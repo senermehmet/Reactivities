@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj": {}
+    "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
+    "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj",
+        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\",
-        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\obj\\",
+        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

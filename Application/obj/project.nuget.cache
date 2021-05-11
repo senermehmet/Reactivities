@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gld/oU1d/Okq+QRlc2nY2SeHPSOa44mgquQaG4JHw0EiTAEsmwAnUFhj/fYmJnV7bX6l6y5rooRjK7hH3dqALw==",
+  "dgSpecHash": "MVeue8Yk+iGTSQO2DGSK/7szx9NHFGR9zpWOHqCV+K7w94kYDq2RM2Lv22BC52Qrgfx5cX8MGd5cb409VvMUCg==",
   "success": true,
-  "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\Application\\Application.csproj",
+  "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

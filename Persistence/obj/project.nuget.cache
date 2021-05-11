@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Svs6tXLjflcltdyVvAgUYXLs+JMt9IjKUsNoPXSM8l3ZJUW2C/YO63M2+4l3hpmT3LxKWu2mnBh0GQF9bvSe6A==",
+  "dgSpecHash": "SsbubkB4L+jF/K+kqLyRjV52uE3N/vwlQC8lyppKyrBo1U8OvbJovtV69u3P8Of24Oklg5Te42cwi1wC64Cu2A==",
   "success": true,
-  "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\Persistence\\Persistence.csproj",
+  "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

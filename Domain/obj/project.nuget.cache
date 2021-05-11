@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cTHwopPclO7f2PD7WW+8emRSrQZho/5ilhUAV80LkOUcjSIGnef9RtL0fMiGU1Xaa4toREZ4qdsplSyiF8KGsg==",
+  "dgSpecHash": "Try1R/5UOGTegGgS2bVs2zckiOpYL1sa+SuAFSWooV1bvopC7rEiBTU+bcS1g5t/Ct9mZTyg3MUcODJS6wpI6A==",
   "success": true,
-  "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

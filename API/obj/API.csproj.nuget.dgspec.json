@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\YAZILIM\\Udemy\\ReActivities\\api\\API.csproj": {}
+    "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\api\\API.csproj": {}
   },
   "projects": {
-    "E:\\YAZILIM\\Udemy\\ReActivities\\api\\API.csproj": {
+    "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\api\\API.csproj",
+        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\api\\API.csproj",
+        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\",
-        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\api\\obj\\",
+        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\YAZILIM\\Udemy\\ReActivities\\Application\\Application.csproj": {
-                "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Application\\Application.csproj"
+              "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Application\\Application.csproj": {
+                "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Application\\Application.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "E:\\YAZILIM\\Udemy\\ReActivities\\Application\\Application.csproj": {
+    "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Application\\Application.csproj",
+        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\",
-        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Application\\obj\\",
+        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -111,11 +111,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj"
+              "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj"
               },
-              "E:\\YAZILIM\\Udemy\\ReActivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Persistence\\Persistence.csproj"
+              "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -158,14 +158,14 @@
         }
       }
     },
-    "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
+    "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj",
+        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\",
-        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\obj\\",
+        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -217,14 +217,14 @@
         }
       }
     },
-    "E:\\YAZILIM\\Udemy\\ReActivities\\Persistence\\Persistence.csproj": {
+    "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Persistence\\Persistence.csproj",
+        "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Mehmet ŞENER\\.nuget\\packages\\",
-        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Persistence\\obj\\",
+        "outputPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -246,8 +246,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\Domain\\Domain.csproj"
+              "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\YAZILIM\\Udemy\\ReActivities\\ReActivities\\Domain\\Domain.csproj"
               }
             }
           }
